@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "공식 경기용 야구공",
+    "price": 12000,
+    "image": "images/b1.jpg",
+    "brand": "BlueLine",
+    "options": [
+      { "name": "수량", "values": ["1개", "3개 세트", "12개 박스"] },
+      { "name": "용도", "values": ["경기용", "연습용"] }
+    ],
+    "tags": ["new", "ranking", "brand"],
+    "rank": 1
+  },
+  {
+    "id": 2,
+    "name": "프로 포수 마스크",
+    "price": 79000,
+    "image": "images/b7.jpg",
+    "brand": "Catcher Pro",
+    "options": [
+      { "name": "사이즈", "values": ["S", "M", "L"] },
+      { "name": "색상", "values": ["레드", "블랙"] }
+    ],
+    "tags": ["new", "brand", "ranking"],
+    "rank": 3
+  },
+  {
+    "id": 3,
+    "name": "파워 히트 알루미늄 배트",
+    "price": 89000,
+    "image": "images/b6.jpg",
+    "brand": "Slugger",
+    "options": [
+      { "name": "길이", "values": ["29인치", "31인치", "33인치"] },
+      { "name": "무게", "values": ["가벼움", "보통", "무거움"] }
+    ],
+    "tags": ["new", "brand", "ranking"],
+    "rank": 2
+  },
+  {
+    "id": 4,
+    "name": "유소년 연습용 글러브",
+    "price": 39000,
+    "image": "images/b4.jpg",
+    "brand": "Kids Ball",
+    "options": [
+      { "name": "착용손", "values": ["왼손 착용", "오른손 착용"] },
+      { "name": "사이즈", "values": ["10인치", "11인치"] }
+    ],
+    "tags": ["youth", "new"],
+    "rank": 5
+  },
+  {
+    "id": 5,
+    "name": "유소년 안전 야구공 세트",
+    "price": 18000,
+    "image": "images/b5.jpg",
+    "brand": "Junior Fit",
+    "options": [
+      { "name": "수량", "values": ["3개 세트", "6개 세트"] },
+      { "name": "강도", "values": ["소프트", "일반"] }
+    ],
+    "tags": ["youth", "ranking"],
+    "rank": 4
+  },
+  {
+    "id": 6,
+    "name": "브랜드 내야 글러브",
+    "price": 129000,
+    "image": "images/b8.jpg",
+    "brand": "BlueLine",
+    "options": [
+      { "name": "착용손", "values": ["왼손 착용", "오른손 착용"] },
+      { "name": "사이즈", "values": ["11.5인치", "12인치"] }
+    ],
+    "tags": ["brand", "ranking"],
+    "rank": 6
+  }
+]
