@@ -3,92 +3,144 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="블루라인 야구용품 - 신상품, 유소년, 랭킹, 브랜드별 야구 장비를 만나보세요." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚾</text></svg>" />
   <title>블루라인 야구용품 쇼핑몰</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-inner">
-      <div>
-        <p class="eyebrow">Baseball Equipment Shop</p>
-        <h1>블루라인 야구용품</h1>
-        <p class="intro">짱베이스볼</p>
-        <div class="hero-gallery" aria-label="판매 중인 야구용품 이미지">
-        </div>
+  <div id="introScreen" class="intro-screen">
+    <img src="images/intro.jpg" alt="블루라인 로딩 화면" class="intro-image" />
+    <div class="intro-fly-ball"></div>
+  </div>
+
+  <header class="top-bar">
+    <a class="logo" href="index.html?home=1">⚾ BlueLine</a>
+    <nav class="top-nav" aria-label="상단 메뉴">
+      <a href="shop.html">상점</a>
+      <a href="cart.html">장바구니 <span id="cartCount" class="cart-count">0</span></a>
+      <a href="location.html">오시는 길</a>
+    </nav>
+  </header>
+
+  <section class="hero-banner">
+    <div class="container">
+      <img class="hero-banner-image" src="images/banner.jpg" alt="블루라인 야구용품 메인 배너" />
+    </div>
+  </section>
+
+  <section class="ranking-preview">
+    <div class="container">
+      <div class="section-title">
+        <p>Best Ranking</p>
+        <h2>인기 상품</h2>
       </div>
-      <div class="status-panel">
-        <div class="status-item">
-          <span class="status-icon">DATE</span>
-          <div>
-            <span class="status-label">오늘 날짜와 시간</span>
-            <strong id="datetime">불러오는 중...</strong>
-          </div>
+      <div class="ranking-track-wrap">
+        <div id="rankingList" class="ranking-track"></div>
+      </div>
+      <div class="section-cta">
+        <a href="shop.html?cat=ranking" class="hero-cta">상품 보러가기</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-us">
+    <div class="container">
+      <div class="section-title">
+        <p>Why BlueLine</p>
+        <h2>블루라인을 선택해야 하는 이유</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card why-dir-left">
+          <img class="why-icon" src="images/icon4.png" alt="무료배송 아이콘" />
+          <h3>무료배송</h3>
+          <p>2만원 이상 구매 시 전국 어디서나 무료배송으로 편하게 받아보세요.</p>
         </div>
-        <div class="status-item">
-          <span class="status-icon">SKY</span>
-          <div>
-            <span class="status-label">안산 매장 현재 날씨</span>
-            <strong id="weatherBox">확인하는 중...</strong>
-          </div>
+        <div class="why-card why-dir-bottom">
+          <img class="why-icon" src="images/icon3.png" alt="정품보장 아이콘" />
+          <h3>정품보장</h3>
+          <p>모든 상품은 정식 수입·유통 경로를 통해 들어온 100% 정품입니다.</p>
+        </div>
+        <div class="why-card why-dir-top">
+          <img class="why-icon" src="images/icon2.png" alt="당일발송 아이콘" />
+          <h3>당일발송</h3>
+          <p>오후 2시 이전 주문 시 당일 출고로 빠르게 받아보실 수 있어요.</p>
+        </div>
+        <div class="why-card why-dir-right">
+          <img class="why-icon" src="images/icon1.png" alt="전문상담 아이콘" />
+          <h3>전문 상담</h3>
+          <p>야구용품 전문가가 눈높이에 맞는 장비를 추천해드립니다.</p>
         </div>
       </div>
     </div>
-  </header>
+  </section>
 
-  <nav class="category-nav" aria-label="상품 카테고리">
-    <button class="nav-button active" type="button" data-category="new">신상품</button>
-    <button class="nav-button" type="button" data-category="youth">유소년</button>
-    <button class="nav-button" type="button" data-category="ranking">랭킹</button>
-    <button class="nav-button" type="button" data-category="brand">브랜드</button>
-  </nav>
-
-  <main>
-    <section class="shop-section">
+  <section class="store-gallery">
+    <div class="container">
       <div class="section-title">
-        <p id="categoryLabel">NEW</p>
-        <h2 id="categoryTitle">신상품</h2>
+        <p>Store Snapshot</p>
+        <h2>매장 둘러보기</h2>
       </div>
-      <div id="productList" class="product-grid"></div>
-    </section>
-
-    <section class="cart-section" aria-labelledby="cartTitle">
-      <div class="section-title">
-        <p>Cart</p>
-        <h2 id="cartTitle">장바구니</h2>
-      </div>
-      <div class="cart-box">
-        <div id="cartList" class="cart-list">
-          <p class="empty-cart">장바구니가 비어 있습니다.</p>
-        </div>
-        <div class="cart-summary">
-          <span>총 금액</span>
-          <strong id="cartTotal">0원</strong>
+      <div class="gallery-track-wrap">
+        <div class="gallery-track">
+          <div class="gallery-item"><img src="images/gallery1.jpg" alt="매장 스냅샷 1" /></div>
+          <div class="gallery-item"><img src="images/gallery2.jpg" alt="매장 스냅샷 2" /></div>
+          <div class="gallery-item"><img src="images/gallery3.jpg" alt="매장 스냅샷 3" /></div>
+          <div class="gallery-item"><img src="images/gallery4.jpg" alt="매장 스냅샷 4" /></div>
+          <div class="gallery-item"><img src="images/gallery5.jfif" alt="매장 스냅샷 5" /></div>
+          <div class="gallery-item"><img src="images/gallery6.jfif" alt="매장 스냅샷 6" /></div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="location-section">
+  <section class="brand-strip">
+    <div class="container">
       <div class="section-title">
-        <p>Location</p>
-        <h2>오시는 길</h2>
+        <p>Our Partners</p>
+        <h2>함께하는 브랜드</h2>
       </div>
-      <div class="location-layout">
-        <div id="map"></div>
-        <div class="store-info">
-          <h3>블루라인 야구용품 매장</h3>
-          <p>경기도 안산시 단원구 고잔동 123-45</p>
-          <p>영업시간: 매일 10:00 - 21:00</p>
-          <p>문의: 031-123-4567</p>
-          <a href="https://map.kakao.com/" target="_blank" rel="noopener">카카오맵에서 길찾기</a>
-        </div>
+      <div class="brand-strip-list">
+        <div class="brand-card"><img src="images/brand1.png" alt="구보타 슬러거" /></div>
+        <div class="brand-card"><img src="images/brand2.png" alt="스톰지투" /></div>
+        <div class="brand-card"><img src="images/brand3.png" alt="윌슨" /></div>
+        <div class="brand-card"><img src="images/brand4.png" alt="아디다스" /></div>
+        <div class="brand-card"><img src="images/brand5.png" alt="골든글러브" /></div>
+        <div class="brand-card"><img src="images/brand6.png" alt="D-QUEST 명품글러브" /></div>
+        <div class="brand-card"><img src="images/brand7.png" alt="하타케야마 오더미트" /></div>
+        <div class="brand-card"><img src="images/brand8.png" alt="유니글러브" /></div>
+        <div class="brand-card"><img src="images/brand9.png" alt="제트 오더글러브" /></div>
+        <div class="brand-card"><img src="images/brand10.png" alt="미즈노 프로 오더 글러브" /></div>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer>
-    <p>짱베이스볼 | 블루라인 야구용품</p>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="footer-logo">⚾ BlueLine</p>
+        <p class="footer-desc">최고의 야구 장비를 합리적인 가격에 만나보세요.</p>
+      </div>
+      <div class="footer-col">
+        <h4>바로가기</h4>
+        <a href="shop.html">상품</a>
+        <a href="cart.html">장바구니</a>
+        <a href="location.html">오시는 길</a>
+      </div>
+      <div class="footer-col">
+        <h4>고객센터</h4>
+        <p>031-123-4567</p>
+        <p>평일 10:00 - 18:00</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 블루라인 야구용품. All rights reserved.</p>
+      <a href="#" class="footer-top-link">맨 위로 ↑</a>
+    </div>
   </footer>
-  <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=YOUR_APP_KEY"></script>
+  <button id="topButton" class="top-button" type="button" aria-label="맨 위로">
+    <img src="images/mascot4.png" alt="맨 위로" class="top-button-image" />
+  </button>
   <script src="js/app.js"></script>
 </body>
 </html>

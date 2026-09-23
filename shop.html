@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="블루라인 야구용품 - 신상품, 유소년, 랭킹, 브랜드별 야구 장비를 만나보세요." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚾</text></svg>" />
+  <title>상품 - 블루라인 야구용품</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <a class="logo" href="index.html">⚾ BlueLine</a>
+    <nav class="top-nav" aria-label="상단 메뉴">
+      <a href="shop.html">상점</a>
+      <a href="cart.html">장바구니 <span id="cartCount" class="cart-count">0</span></a>
+      <a href="location.html">오시는 길</a>
+    </nav>
+  </header>
+
+  <section class="shop-hero">
+    <div class="container shop-hero-inner">
+      <div class="shop-hero-text">
+        <p class="eyebrow">Shop</p>
+        <h1 class="shop-hero-title">전체 상품</h1>
+        <p class="hero-desc">블루라인의 모든 야구용품을 만나보세요!</p>
+      </div>
+      <img class="shop-hero-character" src="images/mascot2.png" alt="블루라인 마스코트 캐릭터" />
+    </div>
+    <nav class="category-nav shop-hero-nav" aria-label="상품 카테고리">
+      <button class="nav-button active" type="button" data-category="new">신상품</button>
+      <button class="nav-button" type="button" data-category="youth">유소년</button>
+      <button class="nav-button" type="button" data-category="ranking">랭킹</button>
+      <button class="nav-button" type="button" data-category="brand">브랜드</button>
+    </nav>
+  </section>
+
+  <main>
+    <section class="shop-section">
+      <div class="container">
+        <div class="section-title">
+          <p id="categoryLabel">NEW</p>
+          <h2 id="categoryTitle">신상품</h2>
+          <span id="categoryCount" class="category-count"></span>
+        </div>
+        <div id="productList" class="product-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="footer-logo">⚾ BlueLine</p>
+        <p class="footer-desc">최고의 야구 장비를 합리적인 가격에 만나보세요.</p>
+      </div>
+      <div class="footer-col">
+        <h4>바로가기</h4>
+        <a href="shop.html">상품</a>
+        <a href="cart.html">장바구니</a>
+        <a href="location.html">오시는 길</a>
+      </div>
+      <div class="footer-col">
+        <h4>고객센터</h4>
+        <p>031-123-4567</p>
+        <p>평일 10:00 - 18:00</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 블루라인 야구용품. All rights reserved.</p>
+      <a href="#" class="footer-top-link">맨 위로 ↑</a>
+    </div>
+  </footer>
+  <button id="topButton" class="top-button" type="button" aria-label="맨 위로">
+    <img src="images/mascot4.png" alt="맨 위로" class="top-button-image" />
+  </button>
+  <script src="js/app.js"></script>
+</body>
+</html>

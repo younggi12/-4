@@ -1,62 +1,61 @@
 [
   {
     "id": 1,
-    "name": "공식 경기용 야구공",
+    "name": "윌슨 경식 야구공 A1030",
     "price": 12000,
     "image": "images/b1.jpg",
-    "brand": "BlueLine",
+    "brand": "Wilson",
     "options": [
       { "name": "수량", "values": ["1개", "3개 세트", "12개 박스"] },
       { "name": "용도", "values": ["경기용", "연습용"] }
     ],
-    "tags": ["new", "ranking", "brand"],
+    "tags": ["ranking", "brand"],
     "rank": 1
   },
   {
     "id": 2,
-    "name": "프로 포수 마스크",
+    "name": "미즈노 프로 포수마스크 BK-200",
     "price": 79000,
     "image": "images/b7.jpg",
-    "brand": "Catcher Pro",
+    "brand": "Mizuno",
     "options": [
       { "name": "사이즈", "values": ["S", "M", "L"] },
       { "name": "색상", "values": ["레드", "블랙"] }
     ],
-    "tags": ["new", "brand", "ranking"],
-    "rank": 3
+    "tags": ["ranking", "brand"],
+    "rank": 2
   },
   {
     "id": 3,
-    "name": "파워 히트 알루미늄 배트",
+    "name": "제트 알루미늄 배트 ZB-950",
     "price": 89000,
     "image": "images/b6.jpg",
-    "brand": "Slugger",
+    "brand": "ZETT",
     "options": [
       { "name": "길이", "values": ["29인치", "31인치", "33인치"] },
       { "name": "무게", "values": ["가벼움", "보통", "무거움"] }
     ],
-    "tags": ["new", "brand", "ranking"],
-    "rank": 2
+    "tags": ["ranking", "brand"],
+    "rank": 3
   },
   {
     "id": 4,
-    "name": "유소년 연습용 글러브",
+    "name": "SSK 유소년 글러브 KY-110",
     "price": 39000,
     "image": "images/b4.jpg",
-    "brand": "Kids Ball",
+    "brand": "SSK",
     "options": [
       { "name": "착용손", "values": ["왼손 착용", "오른손 착용"] },
       { "name": "사이즈", "values": ["10인치", "11인치"] }
     ],
-    "tags": ["youth", "new"],
-    "rank": 5
+    "tags": ["youth"]
   },
   {
     "id": 5,
-    "name": "유소년 안전 야구공 세트",
+    "name": "다이와 소프트 야구공 세트 DS-306",
     "price": 18000,
     "image": "images/b5.jpg",
-    "brand": "Junior Fit",
+    "brand": "Daiwa",
     "options": [
       { "name": "수량", "values": ["3개 세트", "6개 세트"] },
       { "name": "강도", "values": ["소프트", "일반"] }
@@ -66,15 +65,270 @@
   },
   {
     "id": 6,
-    "name": "브랜드 내야 글러브",
-    "price": 129000,
+    "name": "미즈노 밸런스 배트 MZ-820",
+    "price": 99000,
+    "image": "images/b3.jpg",
+    "brand": "Mizuno",
+    "options": [
+      { "name": "길이", "values": ["30인치", "32인치", "34인치"] },
+      { "name": "무게", "values": ["가벼움", "보통"] }
+    ],
+    "tags": ["ranking"],
+    "rank": 5
+  },
+  {
+    "id": 7,
+    "name": "SSK 유소년 포수마스크 SK-115",
+    "price": 52000,
+    "image": "images/b2.jpg",
+    "brand": "SSK",
+    "options": [
+      { "name": "사이즈", "values": ["S", "M"] },
+      { "name": "색상", "values": ["블루", "레드"] }
+    ],
+    "tags": ["youth"]
+  },
+  {
+    "id": 8,
+    "name": "제트 유소년 글러브 ZG-105",
+    "price": 36000,
     "image": "images/b8.jpg",
+    "brand": "ZETT",
+    "options": [
+      { "name": "착용손", "values": ["왼손 착용", "오른손 착용"] },
+      { "name": "사이즈", "values": ["10인치", "10.5인치"] }
+    ],
+    "tags": ["youth"]
+  },
+  {
+    "id": 9,
+    "name": "데상트 트레이닝 야구바지 DP-220",
+    "price": 29000,
+    "image": "images/b9.png",
+    "brand": "Descente",
+    "options": [
+      { "name": "사이즈", "values": ["S", "M", "L"] },
+      { "name": "색상", "values": ["화이트", "그레이"] }
+    ],
+    "tags": ["youth"]
+  },
+  {
+    "id": 10,
+    "name": "미즈노 팀 장비가방 1FJDD03022 블루 75L",
+    "price": 79000,
+    "image": "images/b21.jpg",
+    "brand": "Mizuno",
+    "options": [
+      { "name": "색상", "values": ["블루", "블랙"] },
+      { "name": "용량", "values": ["75L", "100L"] }
+    ],
+    "tags": ["ranking"],
+    "rank": 6
+  },
+  {
+    "id": 11,
+    "name": "빅터스 배트그립 VG-011",
+    "price": 9000,
+    "image": "images/b11.jpg",
+    "brand": "Victus",
+    "options": [
+      { "name": "색상", "values": ["블랙", "레드", "블루"] },
+      { "name": "두께", "values": ["1.1mm", "1.7mm"] }
+    ],
+    "tags": ["youth"]
+  },
+  {
+    "id": 12,
+    "name": "미즈노 배트그립 MG-012",
+    "price": 9500,
+    "image": "images/b10.jpg",
+    "brand": "Mizuno",
+    "options": [
+      { "name": "색상", "values": ["블루", "화이트"] },
+      { "name": "두께", "values": ["1.1mm", "1.7mm"] }
+    ],
+    "tags": ["youth"]
+  },
+  {
+    "id": 13,
+    "name": "데상트 커스텀핏 야구바지 DP-330",
+    "price": 65000,
+    "image": "images/b12.jpg",
+    "brand": "Descente",
+    "options": [
+      { "name": "사이즈", "values": ["맞춤 제작"] },
+      { "name": "색상", "values": ["홈", "원정"] }
+    ],
+    "tags": ["youth", "ranking"],
+    "rank": 7
+  },
+  {
+    "id": 14,
+    "name": "SSK 스틸 풋가드 SF-410",
+    "price": 48000,
+    "image": "images/b14.jpg",
+    "brand": "SSK",
+    "options": [
+      { "name": "착용발", "values": ["왼발", "오른발"] },
+      { "name": "사이즈", "values": ["S", "M", "L"] }
+    ],
+    "tags": ["ranking"],
+    "rank": 8
+  },
+  {
+    "id": 15,
+    "name": "제트 세이프가드 풋가드 ZF-415",
+    "price": 45000,
+    "image": "images/b13.jpg",
+    "brand": "ZETT",
+    "options": [
+      { "name": "착용발", "values": ["왼발", "오른발"] },
+      { "name": "사이즈", "values": ["M", "L"] }
+    ],
+    "tags": ["brand"]
+  },
+  {
+    "id": 16,
+    "name": "미즈노 시그니처 글러브 MG-1200",
+    "price": 152000,
+    "image": "images/b15.jpg",
+    "brand": "Mizuno",
+    "options": [
+      { "name": "착용손", "values": ["왼손 착용", "오른손 착용"] },
+      { "name": "사이즈", "values": ["11.5인치", "12인치", "12.5인치"] }
+    ],
+    "tags": ["brand"]
+  },
+  {
+    "id": 17,
+    "name": "오클리 폴라라이즈드 선글라스 OK-500",
+    "price": 58000,
+    "image": "images/b17.jpg",
+    "brand": "Oakley",
+    "options": [
+      { "name": "렌즈컬러", "values": ["스모크", "미러"] },
+      { "name": "프레임", "values": ["블랙", "네이비"] }
+    ],
+    "tags": ["brand"]
+  },
+  {
+    "id": 18,
+    "name": "오클리 미러 선글라스 OK-505",
+    "price": 62000,
+    "image": "images/b16.jpg",
+    "brand": "Oakley",
+    "options": [
+      { "name": "렌즈컬러", "values": ["블루미러", "실버미러"] },
+      { "name": "프레임", "values": ["블랙", "화이트"] }
+    ],
+    "tags": ["brand"]
+  },
+  {
+    "id": 19,
+    "name": "프랭클린 프로 배팅장갑 FG-330",
+    "price": 45000,
+    "image": "images/b18.jpg",
+    "brand": "Franklin",
+    "options": [
+      { "name": "사이즈", "values": ["S", "M", "L", "XL"] },
+      { "name": "색상", "values": ["블랙", "화이트"] }
+    ],
+    "tags": ["brand"]
+  },
+  {
+    "id": 20,
+    "name": "우드 글러브 디스플레이 거치대 WS-001",
+    "price": 28000,
+    "image": "images/b19.jpg",
     "brand": "BlueLine",
+    "options": [
+      { "name": "색상", "values": ["우드", "블랙"] },
+      { "name": "구성", "values": ["1구", "2구"] }
+    ],
+    "tags": ["new"]
+  },
+  {
+    "id": 21,
+    "name": "알펙스 ABS 존 피칭 타겟",
+    "price": 89000,
+    "image": "images/b20.png",
+    "brand": "ALPEX",
+    "options": [
+      { "name": "사이즈", "values": ["스탠다드"] },
+      { "name": "색상", "values": ["옐로우", "블랙"] }
+    ],
+    "tags": ["new"]
+  },
+  {
+    "id": 22,
+    "name": "롤링스 정품 홈플레이트 세트 RH-100",
+    "price": 39000,
+    "image": "images/b22.jpg",
+    "brand": "Rawlings",
+    "options": [
+      { "name": "재질", "values": ["고무", "합성수지"] },
+      { "name": "사이즈", "values": ["정규", "연습용"] }
+    ],
+    "tags": ["new"]
+  },
+  {
+    "id": 23,
+    "name": "나이키 알파 헌치 야구화 NK-3000",
+    "price": 129000,
+    "image": "images/b23.jpeg",
+    "brand": "Nike",
+    "options": [
+      { "name": "사이즈", "values": ["255", "265", "275"] },
+      { "name": "색상", "values": ["블랙", "화이트"] }
+    ],
+    "tags": ["new"]
+  },
+  {
+    "id": 24,
+    "name": "나이키 포스 트라웃 야구화 NK-3100",
+    "price": 139000,
+    "image": "images/b24.jpeg",
+    "brand": "Nike",
+    "options": [
+      { "name": "사이즈", "values": ["255", "265", "275"] },
+      { "name": "색상", "values": ["네이비", "레드"] }
+    ],
+    "tags": ["new"]
+  },
+  {
+    "id": 25,
+    "name": "미즈노 프리미엄 글러브 MG-1300",
+    "price": 178000,
+    "image": "images/b25.jpg",
+    "brand": "Mizuno",
     "options": [
       { "name": "착용손", "values": ["왼손 착용", "오른손 착용"] },
       { "name": "사이즈", "values": ["11.5인치", "12인치"] }
     ],
-    "tags": ["brand", "ranking"],
-    "rank": 6
+    "tags": ["new"]
+  },
+  {
+    "id": 26,
+    "name": "프랭클린 그립핏 배팅장갑 FG-340",
+    "price": 42000,
+    "image": "images/b26.jpg",
+    "brand": "Franklin",
+    "options": [
+      { "name": "사이즈", "values": ["S", "M", "L", "XL"] },
+      { "name": "색상", "values": ["블랙", "네이비"] }
+    ],
+    "tags": ["new"]
+  },
+  {
+    "id": 27,
+    "name": "프랭클린 에어쿨 배팅장갑 FG-350",
+    "price": 44000,
+    "image": "images/b27.jpg",
+    "brand": "Franklin",
+    "options": [
+      { "name": "사이즈", "values": ["S", "M", "L", "XL"] },
+      { "name": "색상", "values": ["화이트", "그레이"] }
+    ],
+    "tags": ["new"]
   }
 ]
